@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="What the Grifball app does is allow players to play their favorite sport of the future anywhere.\n\nJust choose one of the three weapons and swing like you are actually playing."
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/grifballhub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:text="Visit Grifballhub for the latest grifball news and league information." />
+
+    <TextView
+        android:id="@+id/hub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:autoLink="web"
+        android:clickable="true"
+        android:linksClickable="true"
+        android:text="@string/hub"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/creators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app was created by Mike Fleming and Nathan Knight from Southern Illinois Univeristy of Carbondale.\n" 
+        android:textSize="12sp"/>
+    
+    <TextView
+        android:id="@+id/usagerules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:text="Halo 4 © Microsoft Corporation. Grifball App was created under Microsoft&apos;s &quot;Game Content Usage Rules&quot; using assets from Halo 4. It is not endorsed by Microsoft and does not reflect the views or opinions of Microsoft or anyone officially involved in producing or managing Halo 4.  As such, it does not contribute to the official narrative of the fictional universe, if applicable."
+		android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/link"
+        android:text="@string/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:clickable="true"
+        android:linksClickable="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grifball</string>
+    <string name="action_settings">Settings</string>
+    <string name="choose">Choose a weapon and swing!</string>
+    <string name="ball">Ball</string>
+    <string name="hammer">Hammer</string>
+    <string name="sword">Sword</string>
+    <string name= "hub">www.grifballhub.com</string>
+	<string name= "link">www.xbox.com/en-US/Community/Developer/Rules</string>
+
+</resources>
